@@ -2,4 +2,4 @@
 * Registration
 * Beacons
 * Attendances
-* Resources
+* [Resources](/registration.md)
