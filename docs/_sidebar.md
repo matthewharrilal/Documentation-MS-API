@@ -1,5 +1,4 @@
 
-* Registration
-* Beacons
+* [Registrations](/registration.md)
+* [Beacons](/beacon.md)
 * Attendances
-* [Resources](/registration.md)
