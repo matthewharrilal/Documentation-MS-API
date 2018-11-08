@@ -12,6 +12,7 @@
 
 ## *Facebook Users* ##
 > Credentials are sent through the headers
+> Cookie is obtained from successful request to "https://www.makeschool.com/users/auth/facebook"
 ```json
 {
     Cookie: "_makeschool_session=*******",
