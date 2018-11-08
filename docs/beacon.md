@@ -1,7 +1,8 @@
 # CRUD on Beacons #
 *Authorized Requests => Need Token Representation of Yourself* 
 
-## *Post Request made to /beacons* ##
+## *Create Beacon* ##
+*To create a beacon =>  POST /beacons*
 ```json
 { 
     hardware_id: "Integer Value Representing the Beacon's Hardware ID",
@@ -38,7 +39,7 @@
 ```
 
 
-## Specific Beacon ##
+## Index Specific Beacon ##
 *Fetch a specific beacon /beacons/:id*
 > RETURNS 
 ```json
@@ -75,7 +76,7 @@
 }
 ```
 
-## Delete Beacon ##
+## Delete Specific Beacon ##
 *Deletes a specific beacon /beacons/:id*
 > RETURNS Beacon Object Deleted
 ```json
