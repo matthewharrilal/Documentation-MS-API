@@ -44,51 +44,55 @@
 ```
 
 
-## Index Specific Beacon ##
-*Fetch a specific beacon /beacons/:id*
+## Index Specific Attendance ##
+*Fetch a specific attendance object /attendances/:id*
 > RETURNS 
 ```json
 {   
-    id: 1,
-    hardware_id: "1",
-    title: "Beacon Title",
+    user_id: 1,
+    event_in: "0:00:00",
+    event_out: "1:11:11"
+    beacon_id: 1,
     created_at: "0:00:00",
     updated_at: "0:00:00"
 }
 ```
 
-## Updates Specfic Beacon ##
-*Updates a specific beacon /beacons/:id*
+## Updates Specfic Attendance ##
+*Updates an existing attendance object /attendances/:id*
 > Pass in updated attributes through PUT/PATCH body
 ```json
 {   
-    id: 1,
-    hardware_id: "6",
-    title: "Updated Beacon Id",
-    created_at: "0:00:01",
-    updated_at: "0:00:01"
+    user_id: 1,
+    event_in: "0:00:00",
+    event_out: "1:11:11"
+    beacon_id: 1,
+    created_at: "0:00:00",
+    updated_at: "0:00:00"
 }
 ```
 
-> RETURNS Updated Beacon Object
+> RETURNS Updated Attendance Object
 ```json
 {   
-    id: 1,
-    hardware_id: "6",
-    title: "Updated Beacon Id",
-    created_at: "0:00:01",
-    updated_at: "0:00:01"
+    user_id: 1,
+    event_in: "0:00:00",
+    event_out: "1:11:11"
+    beacon_id: 1,
+    created_at: "0:00:00",
+    updated_at: "0:00:00"
 }
 ```
 
-## Delete Specific Beacon ##
-*Deletes a specific beacon /beacons/:id*
+## Delete Specific Attendance ##
+*Deletes an existing attendance object /attendances/:id*
 > RETURNS Beacon Object Deleted
 ```json
 {   
-    id: 1,
-    hardware_id: "1",
-    title: "Beacon Title",
+    user_id: 1,
+    event_in: "0:00:00",
+    event_out: "1:11:11"
+    beacon_id: 1,
     created_at: "0:00:00",
     updated_at: "0:00:00"
 }
